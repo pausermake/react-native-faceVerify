@@ -1,0 +1,37 @@
+{
+  "name": "TencentCloudHuiyanSDKWill_framework",
+  "version": "1.0.0",
+  "summary": "A short description of TencentCloudHuiyanSDKWill_framework.",
+  "homepage": "https://github.com/brownfeng/TencentCloudHuiyanSDKWill_framework",
+  "license": "MIT",
+  "authors": {
+    "brownfeng": "brownfeng@github.com"
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "CoreVideo",
+    "Security",
+    "SystemConfiguration",
+    "CoreMedia",
+    "VideoToolbox",
+    "CoreTelephony",
+    "ImageIO",
+    "MediaPlayer"
+  ],
+  "libraries": [
+    "c++",
+    "z"
+  ],
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "ios": {
+    "vendored_frameworks": "Libs/*.framework",
+    "resources": "Resources/*.bundle"
+  }
+}

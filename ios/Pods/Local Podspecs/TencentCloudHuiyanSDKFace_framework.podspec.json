@@ -1,0 +1,38 @@
+{
+  "name": "TencentCloudHuiyanSDKFace_framework",
+  "version": "6.6.0",
+  "summary": "A short description of TencentCloudHuiyanSDKFace_framework.",
+  "homepage": "https://github.com/brownfeng/TencentCloudHuiyanSDKFace_framework",
+  "license": "MIT",
+  "authors": {
+    "brownfeng": "brownfeng@github.com"
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "CoreVideo",
+    "Security",
+    "SystemConfiguration",
+    "CoreMedia",
+    "VideoToolbox",
+    "CoreTelephony",
+    "ImageIO",
+    "Accelerate",
+    "WebKit"
+  ],
+  "libraries": [
+    "c++",
+    "z"
+  ],
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "ios": {
+    "vendored_frameworks": "Libs/*.framework",
+    "resources": "Resources/*.bundle"
+  }
+}

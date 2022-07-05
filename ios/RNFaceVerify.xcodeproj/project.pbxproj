@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0202D2E43E24B5587B52F6B /* Pods_RNFaceVerify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F49EFCF16E2C453002E378 /* Pods_RNFaceVerify.framework */; };
+		B3E7B58A1CC2AC0600A0062D /* RNFaceVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNFaceVerify.m */; };
+		BFA550DB2873FB9E0012EFFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA550DA2873FB9E0012EFFD /* UIKit.framework */; };
+		BFA550DD2873FBA80012EFFD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA550DC2873FBA80012EFFD /* AVFoundation.framework */; };
+		BFA550DF2873FBAF0012EFFD /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA550DE2873FBAF0012EFFD /* CoreVideo.framework */; };
+		BFA550E12873FBB60012EFFD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA550E02873FBB60012EFFD /* Security.framework */; };
+		BFA550E32873FBBD0012EFFD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA550E22873FBBD0012EFFD /* SystemConfiguration.framework */; };
+		BFA550E52873FBC40012EFFD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA550E42873FBC30012EFFD /* CoreMedia.framework */; };
+		BFA550E72873FBCA0012EFFD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA550E62873FBCA0012EFFD /* CoreTelephony.framework */; };
+		BFA550E92873FBCF0012EFFD /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA550E82873FBCF0012EFFD /* ImageIO.framework */; };
+		BFA550EB2873FBD50012EFFD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA550EA2873FBD50012EFFD /* MediaPlayer.framework */; };
+		BFA550ED2873FBDC0012EFFD /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA550EC2873FBDC0012EFFD /* Accelerate.framework */; };
+		BFA550EF2873FBE20012EFFD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA550EE2873FBE20012EFFD /* WebKit.framework */; };
+		BFA550F12873FBEC0012EFFD /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA550F02873FBEC0012EFFD /* libc++.tbd */; };
+		BFA550F32873FBF70012EFFD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA550F22873FBF70012EFFD /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03F49EFCF16E2C453002E378 /* Pods_RNFaceVerify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNFaceVerify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		134814201AA4EA6300B7C361 /* libRNFaceVerify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNFaceVerify.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CDC86F178B8916D7672B74 /* Pods-RNFaceVerify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFaceVerify.release.xcconfig"; path = "Target Support Files/Pods-RNFaceVerify/Pods-RNFaceVerify.release.xcconfig"; sourceTree = "<group>"; };
+		B3E7B5881CC2AC0600A0062D /* RNFaceVerify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNFaceVerify.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* RNFaceVerify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNFaceVerify.m; sourceTree = "<group>"; };
+		BA74F5B3F5B03AE4CF1D31C5 /* Pods-RNFaceVerify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFaceVerify.debug.xcconfig"; path = "Target Support Files/Pods-RNFaceVerify/Pods-RNFaceVerify.debug.xcconfig"; sourceTree = "<group>"; };
+		BFA550DA2873FB9E0012EFFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BFA550DC2873FBA80012EFFD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		BFA550DE2873FBAF0012EFFD /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
+		BFA550E02873FBB60012EFFD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		BFA550E22873FBBD0012EFFD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		BFA550E42873FBC30012EFFD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		BFA550E62873FBCA0012EFFD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		BFA550E82873FBCF0012EFFD /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		BFA550EA2873FBD50012EFFD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/iOSSupport/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		BFA550EC2873FBDC0012EFFD /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		BFA550EE2873FBE20012EFFD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/iOSSupport/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		BFA550F02873FBEC0012EFFD /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
+		BFA550F22873FBF70012EFFD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA550F32873FBF70012EFFD /* libz.tbd in Frameworks */,
+				BFA550F12873FBEC0012EFFD /* libc++.tbd in Frameworks */,
+				BFA550EF2873FBE20012EFFD /* WebKit.framework in Frameworks */,
+				BFA550ED2873FBDC0012EFFD /* Accelerate.framework in Frameworks */,
+				BFA550EB2873FBD50012EFFD /* MediaPlayer.framework in Frameworks */,
+				BFA550E92873FBCF0012EFFD /* ImageIO.framework in Frameworks */,
+				BFA550E72873FBCA0012EFFD /* CoreTelephony.framework in Frameworks */,
+				BFA550E52873FBC40012EFFD /* CoreMedia.framework in Frameworks */,
+				BFA550E32873FBBD0012EFFD /* SystemConfiguration.framework in Frameworks */,
+				BFA550E12873FBB60012EFFD /* Security.framework in Frameworks */,
+				BFA550DF2873FBAF0012EFFD /* CoreVideo.framework in Frameworks */,
+				BFA550DD2873FBA80012EFFD /* AVFoundation.framework in Frameworks */,
+				BFA550DB2873FB9E0012EFFD /* UIKit.framework in Frameworks */,
+				B0202D2E43E24B5587B52F6B /* Pods_RNFaceVerify.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRNFaceVerify.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31ED91FCA38F93C6C2B3CCD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA74F5B3F5B03AE4CF1D31C5 /* Pods-RNFaceVerify.debug.xcconfig */,
+				42CDC86F178B8916D7672B74 /* Pods-RNFaceVerify.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				B3E7B5881CC2AC0600A0062D /* RNFaceVerify.h */,
+				B3E7B5891CC2AC0600A0062D /* RNFaceVerify.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
+				31ED91FCA38F93C6C2B3CCD0 /* Pods */,
+				C2004174104AFBCF666C82AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2004174104AFBCF666C82AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFA550F22873FBF70012EFFD /* libz.tbd */,
+				BFA550F02873FBEC0012EFFD /* libc++.tbd */,
+				BFA550EE2873FBE20012EFFD /* WebKit.framework */,
+				BFA550EC2873FBDC0012EFFD /* Accelerate.framework */,
+				BFA550EA2873FBD50012EFFD /* MediaPlayer.framework */,
+				BFA550E82873FBCF0012EFFD /* ImageIO.framework */,
+				BFA550E62873FBCA0012EFFD /* CoreTelephony.framework */,
+				BFA550E42873FBC30012EFFD /* CoreMedia.framework */,
+				BFA550E22873FBBD0012EFFD /* SystemConfiguration.framework */,
+				BFA550E02873FBB60012EFFD /* Security.framework */,
+				BFA550DE2873FBAF0012EFFD /* CoreVideo.framework */,
+				BFA550DC2873FBA80012EFFD /* AVFoundation.framework */,
+				BFA550DA2873FB9E0012EFFD /* UIKit.framework */,
+				03F49EFCF16E2C453002E378 /* Pods_RNFaceVerify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RNFaceVerify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNFaceVerify" */;
+			buildPhases = (
+				761AFF93633AB8D25B60D91D /* [CP] Check Pods Manifest.lock */,
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNFaceVerify;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNFaceVerify.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNFaceVerify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RNFaceVerify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		761AFF93633AB8D25B60D91D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNFaceVerify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E7B58A1CC2AC0600A0062D /* RNFaceVerify.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA74F5B3F5B03AE4CF1D31C5 /* Pods-RNFaceVerify.debug.xcconfig */;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNFaceVerify;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42CDC86F178B8916D7672B74 /* Pods-RNFaceVerify.release.xcconfig */;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNFaceVerify;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNFaceVerify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNFaceVerify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}

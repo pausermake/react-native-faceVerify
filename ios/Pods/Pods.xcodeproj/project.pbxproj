@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		20ABC6B44F9CC221C53D8E317242E6B4 /* TencentCloudHuiyanSDKWill_framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A6C54C042324062082DC95B95F85EC29 /* Build configuration list for PBXAggregateTarget "TencentCloudHuiyanSDKWill_framework" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TencentCloudHuiyanSDKWill_framework;
+		};
+		5E1A429206107DAD9DA8C2C93A5BAFC5 /* TencentCloudHuiyanSDKFace_framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6D311CF667A51432916A4CCBE7750D30 /* Build configuration list for PBXAggregateTarget "TencentCloudHuiyanSDKFace_framework" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TencentCloudHuiyanSDKFace_framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		16B6CC7D62EC6000C78A41C74FED0D1A /* Pods-RNFaceVerify-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00CBDD7D12C55277B5B9CB179ECF01E2 /* Pods-RNFaceVerify-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76080D6DE264B1CFA469A13E85E39CB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B9737AA21917138C4281E31EFABE10C6 /* Pods-RNFaceVerify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5CF56C4493866F591B5A8E97DA4AFB /* Pods-RNFaceVerify-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96E12441BC776CD5C993B0B224817102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E1A429206107DAD9DA8C2C93A5BAFC5;
+			remoteInfo = TencentCloudHuiyanSDKFace_framework;
+		};
+		CF591B30DA39555B56201BFCC259F8F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20ABC6B44F9CC221C53D8E317242E6B4;
+			remoteInfo = TencentCloudHuiyanSDKWill_framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00CBDD7D12C55277B5B9CB179ECF01E2 /* Pods-RNFaceVerify-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RNFaceVerify-umbrella.h"; sourceTree = "<group>"; };
+		02527FE1FAE4F42194DCD4FB3718747C /* TencentCloudHuiyanSDKWill_framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TencentCloudHuiyanSDKWill_framework.release.xcconfig; sourceTree = "<group>"; };
+		027CBE476033A865E37EC99F5B223E47 /* Pods-RNFaceVerify-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNFaceVerify-acknowledgements.plist"; sourceTree = "<group>"; };
+		029A7587D75453C5FF9EB2EC151B8AFC /* YTFaceAlignmentTinyLiveness.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YTFaceAlignmentTinyLiveness.framework; path = Libs/YTFaceAlignmentTinyLiveness.framework; sourceTree = "<group>"; };
+		068572834D387FFD73AD53BA261A898B /* Pods-RNFaceVerify.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RNFaceVerify.modulemap"; sourceTree = "<group>"; };
+		0AF4BEA5FE578EFC1014ADDB96ED918A /* TencentCloudHuiyanSDKWill.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentCloudHuiyanSDKWill.bundle; path = Resources/TencentCloudHuiyanSDKWill.bundle; sourceTree = "<group>"; };
+		0F6EF1BC75DDDBE44803CC7E1929F5CE /* face-tracker-v001.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = "face-tracker-v001.bundle"; path = "Resources/face-tracker-v001.bundle"; sourceTree = "<group>"; };
+		1D6101D82069A646D3C72D097C5708BF /* TencentCloudHuiyanSDKWill_framework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TencentCloudHuiyanSDKWill_framework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		243B76CEEDFF5E095DB8389960152A27 /* TencentCloudHuiyanSDKFace_framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TencentCloudHuiyanSDKFace_framework.debug.xcconfig; sourceTree = "<group>"; };
+		4355D6C5A7D710F68CBFD8F37F94623A /* Pods-RNFaceVerify-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNFaceVerify-Info.plist"; sourceTree = "<group>"; };
+		43D6540EFCACBDF5943293B9790AF950 /* YTCommonLiveness.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YTCommonLiveness.framework; path = Libs/YTCommonLiveness.framework; sourceTree = "<group>"; };
+		447F5FB6AC560494EFA75B31F836AF5B /* YTFaceDetectorLiveness.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YTFaceDetectorLiveness.framework; path = Libs/YTFaceDetectorLiveness.framework; sourceTree = "<group>"; };
+		47BBEC879394E1DD9F0C5299714A0AD6 /* TencentCloudHuiyanSDKWill_framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TencentCloudHuiyanSDKWill_framework.debug.xcconfig; sourceTree = "<group>"; };
+		4ABF19D43E0003A54EC900B6F9187A72 /* YTPoseDetector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YTPoseDetector.framework; path = Libs/YTPoseDetector.framework; sourceTree = "<group>"; };
+		4B463CBA42E6174C3A1DCBF0C16B60F6 /* tnnliveness.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = tnnliveness.framework; path = Libs/tnnliveness.framework; sourceTree = "<group>"; };
+		601089CEE61C6F445FAA1044F983F559 /* YTFaceTrackerLiveness.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YTFaceTrackerLiveness.framework; path = Libs/YTFaceTrackerLiveness.framework; sourceTree = "<group>"; };
+		64FDB4CA406FA921270A95FD99D9963B /* Pods-RNFaceVerify-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNFaceVerify-resources.sh"; sourceTree = "<group>"; };
+		695C7A8E6F7387D016C348117546AB0E /* Pods-RNFaceVerify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNFaceVerify.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7521B6EB77B0F458B585F4B8B8EF96B8 /* TencentCloudHuiyanSDKWill.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentCloudHuiyanSDKWill.framework; path = Libs/TencentCloudHuiyanSDKWill.framework; sourceTree = "<group>"; };
+		76AD69521B3D671BD11CE128FDE537BE /* Pods-RNFaceVerify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNFaceVerify.release.xcconfig"; sourceTree = "<group>"; };
+		7AD7C4C79E8D8CCFDEFA711C50CBB62B /* YTFaceLiveReflect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YTFaceLiveReflect.framework; path = Libs/YTFaceLiveReflect.framework; sourceTree = "<group>"; };
+		80659AC3E100232C9D55BB8C507158F2 /* Pods-RNFaceVerify */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RNFaceVerify"; path = Pods_RNFaceVerify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E47BF40C99BB1865F636DAF4FBB726 /* TuringShieldCamRisk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TuringShieldCamRisk.framework; path = Libs/TuringShieldCamRisk.framework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6769BE31DBF3BED9B87CA4EF432A247 /* TencentCloudHuiyanSDKFace.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentCloudHuiyanSDKFace.framework; path = Libs/TencentCloudHuiyanSDKFace.framework; sourceTree = "<group>"; };
+		AB76FEEE0F4BA5B5AB011020E564CCD3 /* TencentCloudHuiyanSDKFace_framework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TencentCloudHuiyanSDKFace_framework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE5CF56C4493866F591B5A8E97DA4AFB /* Pods-RNFaceVerify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNFaceVerify-dummy.m"; sourceTree = "<group>"; };
+		B8B6C2B23BE7079E28E19CE6A1FC81A8 /* Pods-RNFaceVerify-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RNFaceVerify-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DCFED086D14A6B5A1D196CE7ED93CB74 /* TencentCloudHuiyanSDKFace_framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TencentCloudHuiyanSDKFace_framework.release.xcconfig; sourceTree = "<group>"; };
+		ED753306BC7F5F4CAEACEC7BE7251150 /* TencentCloudHuiyanSDKFace.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentCloudHuiyanSDKFace.bundle; path = Resources/TencentCloudHuiyanSDKFace.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3035D952A146E46A75C32301F8E0FB53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76080D6DE264B1CFA469A13E85E39CB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AC5181A6E348AC931794832FA4866C1 /* TencentCloudHuiyanSDKWill_framework */ = {
+			isa = PBXGroup;
+			children = (
+				0AF4BEA5FE578EFC1014ADDB96ED918A /* TencentCloudHuiyanSDKWill.bundle */,
+				456FB02373CA066C95A3988C8D0AFD1D /* Frameworks */,
+				B120DFE821514D4717B70A1D020F6D62 /* Pod */,
+				CBA6DD869612E96394A7E6F92576ABC9 /* Support Files */,
+			);
+			name = TencentCloudHuiyanSDKWill_framework;
+			path = ../TencentCloudHuiyanSDKWill_framework;
+			sourceTree = "<group>";
+		};
+		310D86BB3C21AE4D9BF4A7282293BCFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80659AC3E100232C9D55BB8C507158F2 /* Pods-RNFaceVerify */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B62DF64C4F8CA549EB8CBEC18DF616C /* Pods-RNFaceVerify */ = {
+			isa = PBXGroup;
+			children = (
+				068572834D387FFD73AD53BA261A898B /* Pods-RNFaceVerify.modulemap */,
+				B8B6C2B23BE7079E28E19CE6A1FC81A8 /* Pods-RNFaceVerify-acknowledgements.markdown */,
+				027CBE476033A865E37EC99F5B223E47 /* Pods-RNFaceVerify-acknowledgements.plist */,
+				AE5CF56C4493866F591B5A8E97DA4AFB /* Pods-RNFaceVerify-dummy.m */,
+				4355D6C5A7D710F68CBFD8F37F94623A /* Pods-RNFaceVerify-Info.plist */,
+				64FDB4CA406FA921270A95FD99D9963B /* Pods-RNFaceVerify-resources.sh */,
+				00CBDD7D12C55277B5B9CB179ECF01E2 /* Pods-RNFaceVerify-umbrella.h */,
+				695C7A8E6F7387D016C348117546AB0E /* Pods-RNFaceVerify.debug.xcconfig */,
+				76AD69521B3D671BD11CE128FDE537BE /* Pods-RNFaceVerify.release.xcconfig */,
+			);
+			name = "Pods-RNFaceVerify";
+			path = "Target Support Files/Pods-RNFaceVerify";
+			sourceTree = "<group>";
+		};
+		456FB02373CA066C95A3988C8D0AFD1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7521B6EB77B0F458B585F4B8B8EF96B8 /* TencentCloudHuiyanSDKWill.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		647A829D6449FD50D155C430521B93C4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AB76FEEE0F4BA5B5AB011020E564CCD3 /* TencentCloudHuiyanSDKFace_framework.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7B8C3A4BE6122081448FCB711AA623EF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A22135E29B60052DE660F58B2B2E46AC /* TencentCloudHuiyanSDKFace_framework */,
+				2AC5181A6E348AC931794832FA4866C1 /* TencentCloudHuiyanSDKWill_framework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		83118D6E576E2A63949BEA7D12C2E409 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				243B76CEEDFF5E095DB8389960152A27 /* TencentCloudHuiyanSDKFace_framework.debug.xcconfig */,
+				DCFED086D14A6B5A1D196CE7ED93CB74 /* TencentCloudHuiyanSDKFace_framework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/TencentCloudHuiyanSDKFace_framework";
+			sourceTree = "<group>";
+		};
+		A22135E29B60052DE660F58B2B2E46AC /* TencentCloudHuiyanSDKFace_framework */ = {
+			isa = PBXGroup;
+			children = (
+				0F6EF1BC75DDDBE44803CC7E1929F5CE /* face-tracker-v001.bundle */,
+				ED753306BC7F5F4CAEACEC7BE7251150 /* TencentCloudHuiyanSDKFace.bundle */,
+				F1D1C442345233F7D005466541CCD47B /* Frameworks */,
+				647A829D6449FD50D155C430521B93C4 /* Pod */,
+				83118D6E576E2A63949BEA7D12C2E409 /* Support Files */,
+			);
+			name = TencentCloudHuiyanSDKFace_framework;
+			path = ../TencentCloudHuiyanSDKFace_framework;
+			sourceTree = "<group>";
+		};
+		B120DFE821514D4717B70A1D020F6D62 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1D6101D82069A646D3C72D097C5708BF /* TencentCloudHuiyanSDKWill_framework.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C85120311B55254A3E270EEBB2ABECE5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B62DF64C4F8CA549EB8CBEC18DF616C /* Pods-RNFaceVerify */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CBA6DD869612E96394A7E6F92576ABC9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47BBEC879394E1DD9F0C5299714A0AD6 /* TencentCloudHuiyanSDKWill_framework.debug.xcconfig */,
+				02527FE1FAE4F42194DCD4FB3718747C /* TencentCloudHuiyanSDKWill_framework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/TencentCloudHuiyanSDKWill_framework";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7B8C3A4BE6122081448FCB711AA623EF /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				310D86BB3C21AE4D9BF4A7282293BCFE /* Products */,
+				C85120311B55254A3E270EEBB2ABECE5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1D1C442345233F7D005466541CCD47B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6769BE31DBF3BED9B87CA4EF432A247 /* TencentCloudHuiyanSDKFace.framework */,
+				4B463CBA42E6174C3A1DCBF0C16B60F6 /* tnnliveness.framework */,
+				94E47BF40C99BB1865F636DAF4FBB726 /* TuringShieldCamRisk.framework */,
+				43D6540EFCACBDF5943293B9790AF950 /* YTCommonLiveness.framework */,
+				029A7587D75453C5FF9EB2EC151B8AFC /* YTFaceAlignmentTinyLiveness.framework */,
+				447F5FB6AC560494EFA75B31F836AF5B /* YTFaceDetectorLiveness.framework */,
+				7AD7C4C79E8D8CCFDEFA711C50CBB62B /* YTFaceLiveReflect.framework */,
+				601089CEE61C6F445FAA1044F983F559 /* YTFaceTrackerLiveness.framework */,
+				4ABF19D43E0003A54EC900B6F9187A72 /* YTPoseDetector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		42F40D8F7E180949BD0C4032DFF92268 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B6CC7D62EC6000C78A41C74FED0D1A /* Pods-RNFaceVerify-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		93300CE9BFDE81F091D90367A2DBBBCA /* Pods-RNFaceVerify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB630F534DA1BCB77906B044D1244FA /* Build configuration list for PBXNativeTarget "Pods-RNFaceVerify" */;
+			buildPhases = (
+				42F40D8F7E180949BD0C4032DFF92268 /* Headers */,
+				E79BBD4CA6F982FDC0A54ECC9923781C /* Sources */,
+				3035D952A146E46A75C32301F8E0FB53 /* Frameworks */,
+				7DC7E3B1EA1F48D57D65B36D2F76FDA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03EAAF6C6EF7CABEB93057525A6E3E85 /* PBXTargetDependency */,
+				1BB50D6AB9281B23D40966BE4146654B /* PBXTargetDependency */,
+			);
+			name = "Pods-RNFaceVerify";
+			productName = Pods_RNFaceVerify;
+			productReference = 80659AC3E100232C9D55BB8C507158F2 /* Pods-RNFaceVerify */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 310D86BB3C21AE4D9BF4A7282293BCFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93300CE9BFDE81F091D90367A2DBBBCA /* Pods-RNFaceVerify */,
+				5E1A429206107DAD9DA8C2C93A5BAFC5 /* TencentCloudHuiyanSDKFace_framework */,
+				20ABC6B44F9CC221C53D8E317242E6B4 /* TencentCloudHuiyanSDKWill_framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DC7E3B1EA1F48D57D65B36D2F76FDA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E79BBD4CA6F982FDC0A54ECC9923781C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9737AA21917138C4281E31EFABE10C6 /* Pods-RNFaceVerify-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03EAAF6C6EF7CABEB93057525A6E3E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TencentCloudHuiyanSDKFace_framework;
+			target = 5E1A429206107DAD9DA8C2C93A5BAFC5 /* TencentCloudHuiyanSDKFace_framework */;
+			targetProxy = 96E12441BC776CD5C993B0B224817102 /* PBXContainerItemProxy */;
+		};
+		1BB50D6AB9281B23D40966BE4146654B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TencentCloudHuiyanSDKWill_framework;
+			target = 20ABC6B44F9CC221C53D8E317242E6B4 /* TencentCloudHuiyanSDKWill_framework */;
+			targetProxy = CF591B30DA39555B56201BFCC259F8F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1709D98298144399B7FFBC300A4452DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02527FE1FAE4F42194DCD4FB3718747C /* TencentCloudHuiyanSDKWill_framework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		338D4C1CAC1423DBE4AE7856A9F19B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 695C7A8E6F7387D016C348117546AB0E /* Pods-RNFaceVerify.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RNFaceVerify/Pods-RNFaceVerify-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RNFaceVerify/Pods-RNFaceVerify.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		910E21E2F5C4FFFBA281EC862499B65A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76AD69521B3D671BD11CE128FDE537BE /* Pods-RNFaceVerify.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RNFaceVerify/Pods-RNFaceVerify-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RNFaceVerify/Pods-RNFaceVerify.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5C18144E487B63A69FB4A3A13015C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 243B76CEEDFF5E095DB8389960152A27 /* TencentCloudHuiyanSDKFace_framework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D1A068A9BD595AC3C3CD6F129EB91E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCFED086D14A6B5A1D196CE7ED93CB74 /* TencentCloudHuiyanSDKFace_framework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F03E41D1E644D85EEED2B7874E0CF0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47BBEC879394E1DD9F0C5299714A0AD6 /* TencentCloudHuiyanSDKWill_framework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D311CF667A51432916A4CCBE7750D30 /* Build configuration list for PBXAggregateTarget "TencentCloudHuiyanSDKFace_framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C18144E487B63A69FB4A3A13015C6F /* Debug */,
+				D1A068A9BD595AC3C3CD6F129EB91E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C54C042324062082DC95B95F85EC29 /* Build configuration list for PBXAggregateTarget "TencentCloudHuiyanSDKWill_framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03E41D1E644D85EEED2B7874E0CF0B8 /* Debug */,
+				1709D98298144399B7FFBC300A4452DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB630F534DA1BCB77906B044D1244FA /* Build configuration list for PBXNativeTarget "Pods-RNFaceVerify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338D4C1CAC1423DBE4AE7856A9F19B75 /* Debug */,
+				910E21E2F5C4FFFBA281EC862499B65A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

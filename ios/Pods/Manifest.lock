@@ -1,0 +1,21 @@
+PODS:
+  - TencentCloudHuiyanSDKFace_framework (6.6.0)
+  - TencentCloudHuiyanSDKWill_framework (1.0.0)
+
+DEPENDENCIES:
+  - TencentCloudHuiyanSDKFace_framework (from `./TencentCloudHuiyanSDKFace_framework`)
+  - TencentCloudHuiyanSDKWill_framework (from `./TencentCloudHuiyanSDKWill_framework`)
+
+EXTERNAL SOURCES:
+  TencentCloudHuiyanSDKFace_framework:
+    :path: "./TencentCloudHuiyanSDKFace_framework"
+  TencentCloudHuiyanSDKWill_framework:
+    :path: "./TencentCloudHuiyanSDKWill_framework"
+
+SPEC CHECKSUMS:
+  TencentCloudHuiyanSDKFace_framework: 6785311612ef80f96fd02df27e303cef75a415a1
+  TencentCloudHuiyanSDKWill_framework: 8ca32f8a8d76e2b7e69a02db991390999a11476a
+
+PODFILE CHECKSUM: 6a3deec6d798f4d9c06738841bb712723f0588b7
+
+COCOAPODS: 1.11.3
